@@ -3,8 +3,12 @@
 void main(){
 	printf("hello world");
 	getchar();
-	int s;
+	int s,n;
 	for (s=0;s<10;s++) {
 		printf("%d\n",s);
+		n=s%3;
+		if (n==0) {
+			printf("Multiples of 3");
+		}
 	}
 }
